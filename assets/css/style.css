@@ -1,0 +1,3546 @@
+/*===============================================
+Template Name: Litefolio - SEO Marketing Agency HTML5 Template
+Author:  https://themeforest.net/user/dreamit-solution
+Description: Description
+Version: 1.0.0
+Text Domain: litefolio
+Tags: agency, consulting, digital agency, digital marketing, digital marketing agency, marketing, marketing agency, media agency, portfolio, seo, seo agency, seo agency theme, seo marketing, smm, social media marketing agency.
+================================================*/
+
+/*TABLE OF CONTENTS*/
+/*=====================
+01. Ltefolio Header Top Menu Area Css
+02. Ltefolio Nav Menu Area Css 
+03. Ltefolio Slider Area Css
+04. Ltefolio Section Title Css
+05. Ltefolio Service Area css
+06. Ltefolio About Area Css
+07. Ltefolio Counter Area Css
+08. Ltefolio Case Study Area Css
+09. Ltefolio Testimonial Area Css
+10. Ltefolio Process Area Css
+11. Ltefolio Team Area Css
+12. Ltefolio Faq Area Css
+13. Ltefolio Brand Section Css
+14. Ltefolio Call Do Section Css
+15. Ltefolio Form Box Css
+16. Ltefolio Skill Area Css
+17. Ltefolio Blog Area Css
+18. Ltefolio footer Area Css
+19. Ltefolio Subscribe Area Css
+20. Ltefolio Lines CSS
+21. Ltefolio Prossess Ber Css
+22. Ltefolio Scrollup Section
+23. Ltefolio Bounce Animation Css 
+24. Ltefolio Animation Dance
+25. Ltefolio Breadcumb Area Css
+26. Ltefolio abouts_areas Css
+27. Ltefolio Feture-Area Css
+28. Ltefolio Pricing Section Css
+29. Ltefolio Web Development Section CSS
+30. Ltefolio Contact  US Css
+31. Ltefolio Blog Sidber Widget CSS
+32. Ltefolio Case Study Details Css
+33. Ltefolio Search Box Css
+34. Ltefolio Loader Css
+=======================*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Reset Code & Common Start Here -->
+<!-- ============================================================== -->*/
+
+.litefolio-logo {
+    position: relative;
+}
+
+.litefolio-logo a {
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
+.litefolio-logo img {
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+
+.litefolio-section-title h1 {
+    font-size: 40px;
+    line-height: 56px;
+    color: #282828;
+    font-weight: 700;
+}
+
+.litefolio_nav_manu {
+    transition: .5s;
+    z-index: 2;
+    position: relative;
+    padding: 0 70px 0;
+    margin-bottom: -95px;
+    border-bottom: 1px solid rgba(16,18,16,0.10196078431372549);
+}
+
+.sticky {
+    left: 0;
+    margin: auto;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    background: #ffffff67;
+    transition: .5s !important;
+    z-index: 922;
+    -webkit-animation: 300ms ease-in-out fadeInDown;
+    animation: 500ms ease-in-out fadeInUp;
+    animation-name: slideInDown;
+    backdrop-filter: blur(5px);
+}
+
+.sticky nav.header-menu {
+    background: transparent;
+}
+
+.sticky nav.header-menu ul li {
+    display: inline-block;
+    padding: 22px 0 22px 24px;
+    position: relative;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Reset Code & Common End Here -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Header Menu Start Here -->
+<!-- ============================================================== -->*/
+
+header.header-manu-section {
+    background-color: #212529;
+}
+
+nav.header-menu {
+    text-align: right;
+}
+
+nav.header-menu ul li {
+    display: inline-block;
+    padding: 32px 0 32px 30px;
+    position: relative;
+}
+
+nav.header-menu ul li a {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* Submenu Start Here */
+
+nav.header-menu ul li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.submenu {
+    position: absolute;
+    top: 92px;
+    left: 0;
+    width: 205px;
+    background: #fff;
+    z-index: 50;
+    border-top: 3px solid #282828;
+    transition: .4s;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20%) scale(.8);
+    text-align: left;
+    filter: drop-shadow(5px 5px 5px rgba(60, 115, 206, 0.2));
+}
+
+.sticky .submenu {
+    top: 72px;
+}
+
+nav .submenu ul li {
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 6px 20px !important;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+}
+
+nav .submenu ul li:before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    background: #c39e75;
+    top: 0;
+    right: -15px;
+    transform: skewX(-35deg);
+    transition: .4s;
+    z-index: -1;
+}
+
+nav .submenu ul li:after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    background: #c39e75;
+    top: 0;
+    left: -15px;
+    transform: skewX(-35deg);
+    transition: .4s;
+    z-index: -1;
+}
+
+nav .submenu ul li a {
+    color: #0d0e14 !important;
+    transition: .4s;
+}
+
+nav .submenu ul li:hover a{
+    color: #fff !important;
+}
+
+nav .submenu ul li:hover:before,
+nav .submenu ul li:hover:after {
+    background: #282828;
+    filter: hue-rotate(360deg);
+    width: 58%;
+}
+
+/* Submenu End Here */
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Header Menu End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Slider Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.banner-section {
+    height: 850px;
+    display: flex;
+    align-items: center;
+    background: url(../images/main-thumb/banner-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.banner-sub-title h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.banner-title h1 {
+    font-size: 60px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    width: 43%;
+    margin: 11px 0 22px;
+}
+
+.banner-desc p {
+    opacity: 0.710;
+    color: #ffffff;
+    width: 46%;
+}
+
+.banner-btn a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #282828;
+    font-weight: 500;
+    background: #fff;
+    padding: 10px 31px;
+    position: relative;
+    border: 1px solid #fff;
+    z-index: 1;
+    transition: .5s;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.banner-btn a:hover {
+    color: #fff;
+}
+
+.banner-btn a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -30px;
+    width: 0;
+    height: 100%;
+    background: #212529;
+    transition: .5s;
+    transform: skew(35deg, 0deg) scale(1.7);
+    z-index: -1;
+}
+
+.banner-btn a:hover:before {
+    width: 100%;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Banner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.service-section {
+    padding: 100px 0 70px;
+}
+
+.service-desc p {
+    color: #656565;
+    margin: 4px 0 38px;
+}
+
+.service-play span {
+    color: #282828;
+    font-weight: 500;
+}
+
+.service-play a {
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 52px;
+    font-size: 36px;
+    padding-left: 6px;
+    margin-right: 30px;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+    -webkit-transition: .5s;
+    transition: .5s;
+    animation-name: play-btn;
+}
+
+.service-single-box {
+    background-color: #f0f0f1;
+    padding: 44px 37px 42px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.service-box-icon i {
+    font-size: 42px;
+}
+
+.service-box-title h5 {
+    font-size: 22px;
+    line-height: 28px;
+    color: #282828;
+    font-weight: 700;
+    margin: 18px 0 22px;
+}
+
+.service-box-btn a {
+    color: #282828;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Business Section End Here -->
+<!-- ============================================================== -->*/
+
+section.business-section {
+    background-color: #f0f0f1;
+    padding: 100px 0;
+}
+
+.business-thumb {
+    position: relative;
+    display: inline-block;
+}
+
+.business-thumb img {
+	margin-left: 4rem;
+}
+
+.thumb-content {
+    text-align: center;
+    background: #000;
+    display: inline-block;
+    padding: 28px 48px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.thumb-content-number h3 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.thumb-content-title h6 {
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+section.business-section .litefolio-section-title h1 {
+    width: 72%;
+}
+
+.business-desc p {
+    color: #656565;
+    margin: 12px 0 36px;
+}
+
+.business-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-list span {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 18px;
+}
+
+.business-list li {
+    color: #656565;
+    margin-bottom: 18px;
+}
+
+.business-btn a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #282828;
+    font-weight: 500;
+    background: transparent;
+    padding: 10px 31px;
+    position: relative;
+    border: 1px solid #282828;
+    z-index: 1;
+    transition: .5s;
+    margin-top: 22px;
+    overflow: hidden;
+}
+
+.business-btn a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -30px;
+    width: 0;
+    height: 100%;
+    background: #fff;
+    transition: .5s;
+    transform: skew(35deg, 0deg) scale(1.7);
+    z-index: -1;
+}
+
+.business-btn a:hover:before {
+    width: 100%;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Business Section End Here -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Case Study Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.case-study-section {
+    padding: 100px 0;
+}
+
+.case-study-desc p {
+    color: #656565;
+    margin: 2px auto 45px;
+    width: 60%;
+}
+
+.case-study-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.case-study-thumb {
+    position: relative;
+    filter: drop-shadow(2px 2px 2px rgba(60, 115, 206, 0.2));
+}
+
+.case-study-thumb:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 45%;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.case-study-thumb:hover:before {
+    transform: scale(1);
+}
+
+.case-study-thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+.case-study-thumb:nth-child(3) {
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+
+.case-study-thumb:nth-child(2) {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.case-study-thumb:nth-child(4) {
+    grid-row: 1/3;
+    grid-column: 3/5;
+}
+
+.case-study-thumb-content {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+ 
+.case-study-thumb:hover .case-study-thumb-content {
+    visibility: visible;
+    opacity: 1;
+    top: 39%;
+}
+
+.case-study-thumb-sub-title h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.case-study-thumb-title h5 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Case Study Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Team Section End Here -->
+<!-- ============================================================== -->*/
+
+section.team-section {
+    padding: 100px 0;
+    background-color: #f0f0f1;
+    text-align: center;
+}
+
+.team-desc p {
+    color: #656565;
+    margin: 4px auto 46px;
+    width: 60%;
+}
+
+.team-single-box {
+    position: relative;
+}
+
+.team-box-thumb {
+    position: relative;
+}
+
+.team-box-thumb:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    background: #000;
+    transition: .5s;
+    opacity: 45%;
+}
+
+.team-single-box:hover .team-box-thumb:before {
+    transform: scale(1);
+}
+
+.team-box-thumb img {
+    width: 100%;
+}
+
+.team-single-box:hover .team-box-content {
+    visibility: visible;
+    opacity: 1;
+    top: 45%;    
+}
+
+.team-box-content {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.team-box-title h5 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.team-box-designation h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 12px 0 16px;
+}
+
+.team-box-social ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.team-box-social a {
+    font-size: 18px;
+    color: #fff;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Team Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Our Client Section End Here -->
+<!-- ============================================================== -->*/
+
+section.client-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.client-desc p {
+    color: #656565;
+    width: 60%;
+    margin: 16px auto 45px;
+}
+
+.client-single-box {
+    background-color: #f0f0f1;
+    text-align: left;
+    padding: 40px;
+}
+
+.client-box-desc p {
+    color: #656565;
+    margin: 20px 0 26px;
+}
+
+.client-box-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.client-profile-title h6 {
+    font-size: 22px;
+    line-height: 28px;
+    color: #282828;
+    font-weight: 700;
+}
+
+.client-profile-designation h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #656565;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+section.client-section .owl-dots {
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+section.client-section .owl-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #f0f0f1;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+section.client-section .owl-dot.active {
+    background: #282828;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Our Client Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Brand Section End Here -->
+<!-- ============================================================== -->*/
+
+.brand-section {
+    padding: 0 0 100px;
+}
+
+.brand-thumb {
+    overflow: hidden;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Brand Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Footer Section End Here -->
+<!-- ============================================================== -->*/
+
+footer.footer-section {
+    background-color: #212529;
+    padding: 100px 0 0;
+}
+
+.footer-desc p {
+    color: #fefefe;
+    margin: 18px 0 36px;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.footer-social a {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: #282828;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #282828;
+}
+
+.footer-social a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.footer-social a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+}
+
+.footer-social a:hover:before {
+    transform: scale(1);
+}
+
+.footer-link-title h6 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 26px;
+    margin-top: 4px;
+}
+
+.footer-link ul li {
+    margin-bottom: 4px;
+}
+
+.footer-link a {
+    color: #fefefe;
+}
+
+.footer-galary-title h6 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 34px;
+    margin-top: 4px;
+}
+
+.footer-galary ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.footer-galary ul li img{
+    width: 100%; 
+    height: 100%;
+}
+
+.footer-newsletter-title h6 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 26px;
+    margin-top: 4px;
+}
+
+.footer-newsletter-desc p {
+    color: #ffffff;
+}
+
+.footer-newsletter-btn button {
+    display: inline-block;
+    color: #282828;
+    border: navajowhite;
+    height: 52px;
+    background-color: #ffffff;
+    width: 100%;
+    font-weight: 500;
+    transition: .5s;
+    z-index: 1;
+    position: relative;
+    margin-top: 16px;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.footer-newsletter-btn button:hover {
+    color: #fff;
+}
+
+.footer-newsletter-btn button:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -30px;
+    width: 0%;
+    height: 100%;
+    background: #212529;
+    z-index: -1;
+    transform: skew(35deg, 0deg) scale(1.5);
+    transition: .5s;
+}
+
+.footer-newsletter-btn button:hover:before {
+    width: 100%;
+    left: -30px;
+}
+
+.footer-bottom-desc {
+    text-align: center;
+}
+
+.footer-bottom-desc p {
+    color: #ffffff;
+    padding: 40px  0;
+    border-top: 1px solid #5c5a5a;
+    margin: 100px 0 0;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Footer Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+/*<!-- ============================================================== -->
+ <!-- ============================================================== -->
+            <!-- Litefolio Homepage Two Start Here -->
+ <!-- ============================================================== -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Banner Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.Hero-section {
+    height: 950px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: url(../images/main-thumb/banner-bg2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.Hero-sub-title h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.Hero-title h1 {
+	font-size: 60px;
+	line-height: 70px;
+	color: #ffffff;
+	font-weight: 700;
+	width: 64%;
+	margin: 13px auto 22px;
+}
+
+.Hero-desc p {
+    color: #ffffff;
+    width: 57%;
+    margin: auto;
+}
+
+.Hero-btn {
+    margin-top: 36px;
+}
+
+.Hero-btn ul li {
+    display: inline-block;
+    margin: 0 13px;
+}
+
+.Hero-btn a {
+    font-weight: 500;
+    padding: 10px 32px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.Hero-btn ul li:nth-child(1) a {
+    background: transparent;
+    color: #fff;
+    transition: .5s;
+}
+
+.Hero-btn ul li:nth-child(2) a {
+    background: #fff;
+    color: #282828;
+    transition: .5s;
+}
+
+.Hero-btn ul li:nth-child(1) a:hover {
+    color: #282828;
+}
+
+.Hero-btn ul li:nth-child(2) a:hover {
+    color: #fff;
+}
+
+.Hero-btn ul li:nth-child(1) a:hover:before,
+.Hero-btn ul li:nth-child(2) a:hover:before {
+    width: 100%;
+    left: -30px;
+}
+
+.Hero-btn ul li:nth-child(1) a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -30px;
+    width: 0;
+    height: 100%;
+    transform: skew(35deg, 0deg) scale(1.7);
+    z-index: -1;
+    transition: .5s;
+    background: #fff;
+}
+
+.Hero-btn ul li:nth-child(2) a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -30px;
+    width: 0;
+    height: 100%;
+    transform: skew(35deg, 0deg) scale(1.7);
+    z-index: -1;
+    transition: .5s;
+    background: #282828;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Banner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.service-section.style-two {
+    text-align: center;
+}
+
+section.service-section.style-two .service-desc p {
+    margin: 4px auto 38px;
+    width: 52%;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Feature Section End Here -->
+<!-- ============================================================== -->*/
+
+section.feature-section {
+    padding: 100px 0;
+    background-color: #f0f0f1;
+    text-align: center;
+}
+
+.feature-desc p {
+    width: 60%;
+    color: #656565;
+    margin: 6px auto 0;
+}
+
+.feature-box {
+    margin-top: 48px;
+}
+
+.feature-box-thumb img {
+    width: 100%;
+}
+
+.feature-box-title h4 {
+    font-size: 22px;
+    line-height: 28px;
+    color: #282828;
+    font-weight: 700;
+    margin: 24px 0 14px;
+}
+
+.feature-box-desc p {
+    width: 80%;
+    color: #656565;
+    margin: auto;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Feature Section End Here -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Brand Section Start Here -->
+<!-- ============================================================== -->*/
+
+.brand-section.style-two {
+    padding: 100px 0;
+    background-color: #212529;
+    text-align: center;
+}
+
+.brand-section.style-two .owl-carousel .owl-item img {
+    display: inline-block;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Brand Section End Here -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Blog Section End Here -->
+<!-- ============================================================== -->*/
+
+section.blog-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-desc p {
+    width: 60%;
+    COLOR: #656565;
+    margin: 6px auto 0;
+}
+
+.blog-box {
+    margin-top: 48px;
+}
+
+.blog-box-thumb img {
+    width: 100%;
+}
+
+.blog-box-title h4 {
+    font-size: 22px;
+    line-height: 28px;
+    color: #282828;
+    font-weight: 700;
+    margin: 24px 0 14px;
+}
+
+.blog-box-desc p {
+    width: 87%;
+    color: #656565;
+    margin: auto;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Blog Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+
+/*<!-- ============================================================== -->
+ <!-- ============================================================== -->
+            <!-- Litefolio Homepage Three Start Here -->
+ <!-- ============================================================== -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Banner Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.Hero-section.style-two {
+    background: url(../images/main-thumb/banner-bg3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Banner Section Start Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.service-section.style-3 {
+    background-color: #f0f0f1;
+}
+
+section.service-section.style-3  .service-single-box {
+    background-color: #fff;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Section Start Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.counter-section {
+    padding: 100px 0;
+    background: url(../images/main-thumb/counter-bg.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.counter-box-number h2 {
+    display: inline-block;
+    font-size: 35px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 24px 0 14px;
+}
+
+.counter-box-title h6 {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Section Start Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- ============================================================== -->
+            <!-- Litefolio Inner Page Start Here -->
+ <!-- ============================================================== -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Banner Inner Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.banner-inner-section {
+    padding: 150px 0;
+    background: url(../images/main-thumb/litefolio-inner-banner-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.about-inner-title h1 {
+    font-size: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.banner-inner-link {
+    margin-top: 14px;
+}
+
+.banner-inner-link ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.banner-inner-link a {
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Banner Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio About Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+section.about-inner-section {
+    padding: 45px 0 0;
+}
+
+.about-inner-sub-title h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #282828;
+    font-weight: 500;
+}
+
+.about-inner-desc {
+    margin: 12px 0 34px;
+}
+
+.about-inner-desc p {
+    color: #656565;
+}
+
+.about-inner-btn a {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 14px 32px;
+    background: #282828;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #282828;
+    overflow: hidden;
+}
+
+.about-inner-btn a:hover {
+    color: #282828;
+}
+
+.about-inner-btn a::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -30px;
+    height: 100%;
+    width: 0;
+    background: #fff;
+    z-index: -1;
+    transform: scale(1.7) skew(35deg , 0deg);
+    transition: .5s;
+}
+
+.about-inner-btn a:hover::before {
+    width: 100%;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio About Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Contact Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+section.contact-inner-section {
+    padding: 100px 0;
+}
+
+.contact-inner-thumb img {
+	margin-left: -7rem;
+}
+
+.contact-inner-content {
+    background: #fff;
+    filter: drop-shadow(0 0 9px rgba(2,2,2,0.15));
+    padding: 40px 50px 50px;
+}
+
+.contact-inner-desc p {
+    color: #656565;
+    margin: 12px 0 32px;
+}
+
+.contact-form-top {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-form-top input,
+.contact-form-middle input {
+    border: 1px solid #eeeeee;
+    height: 56px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-form-bottom textarea {
+    border: 1px solid #eeeeee;
+    height: 120px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+.contact-btn button {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 14px 32px;
+    background: #282828;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #282828;
+    overflow: hidden;
+}
+
+.contact-btn button:hover {
+    color: #282828;
+}
+
+.contact-btn button::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -30px;
+    height: 100%;
+    width: 0;
+    background: #fff;
+    z-index: -1;
+    transform: scale(1.7) skew(35deg , 0deg);
+    transition: .5s;
+}
+
+.contact-btn button:hover::before {
+    width: 100%;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Contact Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Gallary Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+section.Gallary-section {
+    padding: 100px 0 70px;
+    text-align: center;
+}
+
+.Gallary-thumb {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Gallary-thumb:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 45%;
+    transition: .5s;
+    transform: scale(0);
+}
+
+.Gallary-thumb:hover:before {
+    transform: scale(1);
+}
+
+.Gallary-thumb img {
+    width: 100%;
+}
+
+.Gallary-thumb-content {
+    position: absolute;
+    bottom: -11%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.Gallary-thumb:hover .Gallary-thumb-content {
+    bottom: 40%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.Gallary-thumb-title a {
+    font-size: 24px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.Gallary-thumb-sub-title h6 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Gallary Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Pricing Plan Inner Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.pricing-plan-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.pricing-plan-desc p {
+    color: #656565;
+    width: 60%;
+    margin: 6px auto 0;
+}
+
+.pricing-box {
+    margin-top: 48px;
+}
+
+
+.pricing-single-box {
+    border-radius: 5px;
+    filter: drop-shadow(0 0 9px rgba(2,2,2,0.15));
+    background: #fff;
+}
+
+.pricing-box-content-top {
+    background: #f0f0f2;
+    padding: 25px 0 32px;
+}
+
+.pricing-box-content-top h4 {
+    font-size: 24px;
+    line-height: 44px;
+    color: #232323;
+    font-weight: 500;
+}
+
+.pricing-box-content-top h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #656565;
+    font-weight: 400;
+    margin: 0 0 14px;
+}
+
+.pricing-box-content-bottom {
+    text-align: left;
+    padding: 40px 0px 52px 80px;
+}
+
+.pricing-box-content-bottom ul li {
+    font-size: 16px;
+    line-height: 28px;
+    color: #656565;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    margin: 10px 0;
+    padding-left: 40px;
+}
+
+.pricing-box-content-bottom ul li i {
+    font-size: 26px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.pricing-btn a {
+    font-size: 16px;
+    line-height: 28px;
+    color: #282828;
+    font-weight: 500;
+    width: 188px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #f0f0f1;
+    text-align: center;
+    line-height: 55px;
+    margin-top: 40px;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Pricing Plan Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Inner Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.service-section.style-4 .service-single-box {
+    padding: 44px 32px 42px;
+    text-align: left;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Service Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Blog Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+section.blog-section.style-two .blog-single-box {
+    margin-bottom: 30px;
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Blog Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Blog Details Inner Section Start Here -->
+<!-- ============================================================== -->*/
+
+section.blog-details {
+    padding: 100px 0;
+}
+
+.blog-details-thumb img {
+    width: 100%;
+}
+
+.blog-detials-post-date h6 {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    color: #797979;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 30px 20px 12px 0;
+}
+
+.blog-detials-post-date i {
+    color: #282828;
+    padding-right: 6px;
+    font-size: 18px;
+}
+
+.blog-details-title h1 {
+    font-size: 35px;
+    line-height: 60px;
+    color: #333333;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+.blog-detials-desc p span {
+    color: #282828;
+    font-weight: 500;
+}
+
+.shop-detials-shere h4 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+    font-weight: 600;
+    margin: 0;
+}
+
+.blog-details-social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 34px 0;
+    border-top: 1px solid #e4e1e1;
+    padding: 18px 0 0;
+}
+
+.blog-details-social-title h5 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0;
+}
+
+.blog-details-social-link ul li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.blog-details-social-link a {
+    width: 45px;
+    height: 45px;
+    border-radius: 22px;
+    background-color: #797979;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-details-social-link a:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    z-index: -1;
+    border-radius: 30px;
+    transition: .5s;
+    transform: scale(0);
+}
+
+.blog-details-social-link a:hover:before {
+    transform: scale(1);
+}
+
+.blog-details-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.blog-detials-single-box {
+    border-radius: 5px;
+    background-color: #f8f9f7;
+    text-align: center;
+    padding: 58px 0;
+}
+
+.blog-detials-single-box h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 600;
+    width: 69%;
+    margin: auto;
+}
+
+.blog-title h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 600;
+    margin: 42px 0 34px;
+}
+
+.related-blog-single-box {
+    border-radius: 4px;
+    filter: drop-shadow(0px 5px 30px rgba(226,226,226,0.5));
+    background-color: #ffffff;
+}
+
+.blog-box-thumb img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.blog-box-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-box-thumb:before {
+    position: absolute;
+    content: '';
+    top: 0%;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgb(27 27 30 / 60%);
+    transition: .4s;
+    border-radius: 4px 0 0 0;
+}
+
+.blog-box-thumb:after {
+    position: absolute;
+    content: '';
+    top: 0%;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: rgb(27 27 30 / 60%);
+    transition: .4s;
+    border-radius: 0 4px 0 0;
+}
+
+.related-blog-single-box:hover .blog-box-thumb:before,
+.related-blog-single-box:hover .blog-box-thumb:after{
+    width: 50%;
+}
+
+.blog-content {
+    padding: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-content:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    border-radius: 0 0 4px 4px;
+    transition: .4s;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.related-blog-single-box:hover .blog-content:before{
+    transform: scale(1);
+    filter: hue-rotate(360deg);
+}
+
+.blog-box-date h5 {
+    font-size: 16px;
+    line-height: 50px;
+    color: #282828;
+    font-weight: 400;
+    margin: 0;
+    transition: .4s;
+}
+
+.related-blog-single-box:hover .blog-box-date h5{
+    color: #fff;
+}
+
+.blog-box-title a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0 20px;
+    transition: .4s;
+}
+
+.related-blog-single-box:hover .blog-box-title a {
+    color: #fff;
+}
+
+.blog-box-footer {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    border-top: 1px solid rgba(39,39,39,0.10196078431372549);
+    padding: 20px 0 0;
+    transition: .4s;
+}
+
+.related-blog-single-box:hover .blog-box-footer{
+    border-top: 1px solid #fff;
+}
+
+.posted-by a,
+.post-comment a {
+    font-size: 15px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 400;
+    display: inline-block;
+    transition: .4s;
+}
+
+.related-blog-single-box:hover .posted-by a,
+.related-blog-single-box:hover .post-comment a,
+.related-blog-single-box:hover .posted-by a i,
+.related-blog-single-box:hover .post-comment a i{
+    color: #fff;
+}
+
+.posted-by a i ,
+.post-comment a i {
+    color: #282828;
+    transition: .4s;
+}
+
+.blog-box-btn a {
+    color: #1f1f1f;
+    margin-left: 32px;
+    transition: .4s;
+}
+
+.related-blog-single-box:hover .blog-box-btn a{
+    color: #fff;
+}
+
+.comments-title h4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 600;
+    margin: 42px 0 34px;
+}
+
+.blog-details-comments-item {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    border-bottom: 1px solid #e0dcdc;
+    padding-bottom: 46px;
+}
+
+.blog-details-comments-item:nth-child(3) {
+    margin-top: 70px;
+}
+
+.comment-title h5 {
+    margin: 0px 0 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.comment-reply button {
+    font-size: 12px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    width: 92px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #282828;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .5s;
+}
+
+.comment-reply button:hover {
+    filter: hue-rotate(360deg);
+}
+
+.add-comment-title h4 {
+    font-size: 24px;
+    line-height: 60px;
+    color: #333333;
+    font-weight: 600;
+    margin: 32px 0;
+}
+
+.blog-details-form-top textarea {
+    width: 100%;
+    height: 225px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    border: 1px solid #e6e6e6;
+    padding: 10px 20px;
+    resize: none;
+    margin-bottom: 13px;
+}
+
+.blog-details-form-middle input {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    border: 1px solid #e6e6e6;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.blog-details-form-bottom {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.form-bottom-email,
+.form-bottom-site {
+    width: 100%;
+}
+
+.form-bottom-email input, .form-bottom-site input {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    border: 1px solid #e6e6e6;
+    padding: 10px 20px;
+}
+
+.form-bottom-email input::placeholder, .form-bottom-site input::placeholder, 
+.blog-details-form-middle input::placeholder, .blog-details-form-top textarea::placeholder {
+    font-size: 16px;
+    line-height: 28px;
+    color: #797979;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.form-condition input {
+    float: left;
+    margin-right: 10px;
+}
+
+.form-condition p {
+    margin: 0;
+    display: inline-block;
+}
+
+.form-condition input {
+    float: left;
+    margin: 7px 10px 0 0;
+    cursor: pointer;
+}
+
+.blog-details-form-btn button {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    border-radius: 5px;
+    padding: 12px 32px;
+    overflow: hidden;
+    background-color: #282828;
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+    border: none;
+    margin-top: 24px;
+}
+
+.blog-details-form-btn button:hover {
+    filter: hue-rotate(360deg);
+}
+
+.blog-details-form-btn button::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: #585757;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.blog-details-form-btn button:hover::before {
+    width: 100%;
+    left: 0;
+    filter: hue-rotate(360deg);
+}
+
+.left-sidebar {
+    text-align: left;
+}
+
+.style-two .shop-categories {
+    margin-top: 30px;
+}
+
+.read-more a {
+    font-size: 17px;
+    line-height: 28px;
+    color: #1f1f1f;
+    font-weight: 500;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.recent-post a {
+    margin-top: 28px;
+    display: inline-block;
+}
+
+.recent-post-icon {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.recent-post-icon img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.post-title h5 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1f1f;
+    font-weight: 500;
+    margin: 0;
+}
+
+.post-date h5 {
+    font-size: 14px;
+    color: #616161;
+    font-weight: 400;
+    margin: 0;
+    line-height: 24px;
+}
+
+.search-catagory {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.search-catagory input {
+    width: 100%;
+    height: 60px;
+    padding: 10px 30px;
+    background-color: #fcfcfc;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.search-catagory button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 26px;
+    border: none;
+    right: 0;
+    color: #fff;
+    background: #282828;
+    width: 80px;
+    border-radius: 0 5px 5px 0;
+}
+
+.style-two .shop-categories {
+    margin-top: 30px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #f8f9f7;
+}
+
+.shop-section-title h3 {
+    font-size: 20px;
+    line-height: 45px;
+    color: #333333;
+    font-weight: 700;
+    margin: 0 0 20px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #e6e5e5;
+    position: relative;
+}
+
+.shop-section-title h3:before {
+    position: absolute;
+    content: '';
+    top: 61px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #282828;
+}
+
+.shop-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+    font-weight: 400;
+    color: #333;
+}
+
+.shop-list-left i {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    background: #fff;
+    margin-right: 8px;
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid #282828;
+}
+
+.shop-list-left i:hover, 
+.shop-list-left i.active {
+    background: #282828;
+    filter: hue-rotate(360deg);
+}
+
+.cloud-tag li {
+    display: inline-block;
+    margin: 10px 6px 0 0;
+}
+
+.cloud-tag li a {
+    padding: 6px 20px;
+    background: #fff;
+    border-radius: 4px;
+    transition: .4s;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    font-size: 14px;
+    color: #333;
+    transition: .5s;
+}
+
+.cloud-tag li a:hover {
+    color: #fff;
+}
+
+.cloud-tag li a::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    width: 0%;
+    height: 100%;
+    background-color: #282828;
+    transition: .4s;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.cloud-tag li a:hover::before { 
+    width: 100%;
+    left: 0;
+    filter: hue-rotate(360deg);
+}
+
+.newsletter {
+    position: relative;
+}
+
+.newsletter input {
+    width: 100%;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #1f1f1f2e;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.newsletter i {
+    opacity: 0.702;
+    font-size: 15px;
+    line-height: 28px;
+    color: #1f1f1f;
+    position: absolute;
+    top: 36px;
+    right: 18px;
+}
+
+.newsletter button {
+    height: 60px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #282828;
+    border: none;
+    font-size: 17px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.newsletter button:hover{
+    filter: hue-rotate(250deg);
+}
+
+.newsletter button:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -50px;
+    width: 0%;
+    height: 100%;
+    background: #1f1f1f;
+    filter: hue-rotate(250deg);
+    transform: skew(-29deg, 10deg) scale(1.8);
+    transition: .4s;
+    z-index: -1;
+}
+
+.newsletter button:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -74px;
+    width: 0%;
+    height: 100%;
+    background: #1f1f1f;
+    filter: hue-rotate(250deg);
+    transform: skew(-29deg, 10deg) scale(1.8);
+    transition: .4s;
+    z-index: -1;
+}
+
+.newsletter button:hover:before,
+.newsletter button:hover:after{
+    width: 50%;
+}
+
+.comment ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.recent-comment-icon i {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.comment ul li a:hover .recent-comment-icon i {
+    background-color: #282828;
+    color: #fff;
+    filter: hue-rotate(360deg);
+}
+
+.recent-comment-content p {
+    color: #333;
+    margin: 0;
+    transition: .5s;
+}
+
+.comment ul li a:hover .recent-comment-content p {
+    color: #282828;
+}
+
+.contact-us {
+    background: url(../images/main-thumb/blog-details.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.contact-us:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    border-radius: 5px;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.contact-title h1 {
+    font-size: 46px;
+    font-weight: 400;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.contact-btn a {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+    padding: 8px 28px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.contact-btn a:hover {
+    color: #fff;
+}
+
+.contact-btn a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    border-radius: 4px;
+    transition: .5s;
+    z-index: -1;
+    transform: scale(0);
+}
+
+.contact-btn a:hover:before {
+    transform: scale(1);
+    filter: hue-rotate(360deg);
+}
+
+/*<!-- ============================================================== -->
+ <!-- Litefolio Blog  Details Inner Section End Here -->
+<!-- ============================================================== -->*/
+
+
+/*<!--==============================================================-->
+ <!-- Litefolio Portfolio Inner Start Here -->
+<!--==============================================================-->*/
+
+section.potfolio-details-section {
+    padding: 120px 0;
+    background: #f8f8f8;
+}
+
+.portfolio-info {
+    background: #fff;
+    filter: drop-shadow(0px 3px 30px rgba(189,189,189,0.26));
+    padding: 68px 60px;
+}
+
+.portfolio-info-title h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #1f1f1f;
+    font-weight: 400;
+    margin: 0;
+}
+
+.portfolio-info-details {
+    margin-top: 26px;
+}
+
+.portfolio-info-details h6 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #1f1f1f;
+    font-weight: 400;
+}
+
+.portfolio-info-details span {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.portfolio-info-shere-title h5 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    color: #1f1f1f;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.portfolio-info-share {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.portfolio-info-share ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.portfolio-info-share ul li a {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f8f5f0;
+    display: inline-block;
+    color: #1f1f1f;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.portfolio-info-share ul li a:hover {
+    color: #fff;
+}
+
+.portfolio-info-share ul li a::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+    transform: scale(0);
+    z-index: -1;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.portfolio-info-share ul li a:hover::before {
+    transform: scale(1);
+    filter: hue-rotate(360deg);
+}
+
+.portfolio-info-thumb {
+    filter: drop-shadow(0px 3px 30px rgba(189,189,189,0.26));
+}
+
+.portfolio-info-thumb img {
+    width: 100%;
+}
+
+.portfolio-strategy {
+    margin: 60px 0 120px;
+    padding: 50px 60px;
+    background: #fff;
+    filter: drop-shadow(0px 3px 30px rgba(189,189,189,0.26));
+}
+
+.portfolio-strategy-title h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #1f1f1f;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+.portfolio-strategy-desc p {
+    margin: 0;
+}
+
+.portfolio-related-title h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    line-height: 60px;
+    color: #1f1f1f;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.portfolio-related-btn a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #616161;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 110px;
+    height: 45px;
+    background-color: #e4e4e4;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 20px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio-related-btn a:hover {
+    color: #fff;
+}
+
+.portfolio-related-btn a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: #282828;
+    transition: .5s;
+    z-index: -1;
+}
+
+.portfolio-related-btn a:hover:before {
+    width: 100%;
+    filter: hue-rotate(360deg);
+    left: 0;
+}
+
+.portfolio-related-thumb {
+    position: relative;
+    text-align: center;
+}
+
+.portfolio-related-thumb:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #1f1f1f;
+    opacity: .7;
+    transition: .5s;
+}
+
+.portfolio-related-thumb:hover:before {
+    height: 100%;
+    top: 0;
+}
+
+.portfolio-related-thumb img {
+    width: 100%;
+}
+
+.related-thumb-content {
+	position: absolute;
+	bottom: -10%;
+	left: 0;
+	right: 0;
+	visibility: hidden;
+	opacity: 0;
+    transition: .5s;
+}
+
+.portfolio-related-thumb:hover .related-thumb-content {
+    bottom: 7%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.related-thumb-content a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 44px 10px 24px;
+    background-color: #282828;
+    transition: .5s;
+    position: relative;
+}
+
+.related-thumb-content a:hover {
+    filter: hue-rotate(360deg);
+}
+
+.related-thumb-content a i {
+    transition: .5s;
+    position: absolute;
+    top: 11px;
+    right: 20px;
+}
+
+.related-thumb-content a:hover i {
+    right: 14px;
+}
+
+/*<!--==============================================================-->
+ <!-- Litefolio Portfolio Inner End Here -->
+<!--==============================================================-->*/
+
+
+
+
+
+
+
+
+
+/*==========================================
+ <-- litefolio Search CSS  Start -->
+=========================================*/
+
+.search-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    margin-top: -540px;
+    transform: translateY(-100%);
+    background-color: #2828283b;
+    -webkit-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -moz-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -o-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transition: all 1500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    backdrop-filter: blur(5px);
+}
+
+.search-popup{
+    width: 100%;
+}
+
+.search-active .search-popup{
+    transform: translateY(0%);
+    margin-top: 0;
+}
+
+.search-popup .close-search {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 75%;
+    margin: 0 auto;
+    margin-top: -200px;
+    border-radius: 50%;
+    text-align: center;
+    background: linear-gradient(to right, #282828 6%, #e9e9e9 96%);
+    width: 70px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-bottom: 3px solid #ffffff;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-top-color: #fff;
+}
+
+.search-popup .close-search i{
+    position: relative;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.search-active .search-popup .close-search{
+    visibility: visible;
+    opacity: 1;
+    top: 50%;
+    -webkit-transition-delay: 1500ms;
+    -moz-transition-delay: 1500ms;
+    -ms-transition-delay: 1500ms;
+    -o-transition-delay: 1500ms;
+    transition-delay: 1500ms;
+}
+
+.search-popup form{
+    position: absolute;
+    max-width: 700px;
+    top: 50%;
+    left: 15px;
+    right: 15px;
+    margin:-35px auto 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    background-color: #111111;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.search-active .search-popup form{
+    transform: scaleX(1);
+    -webkit-transition-delay: 1200ms;
+    -moz-transition-delay: 1200ms;
+    -ms-transition-delay: 1200ms;
+    -o-transition-delay: 1200ms;
+    transition-delay: 1200ms;
+}
+
+.search-popup .form-group{
+    position:relative;
+    margin:0px; 
+    overflow: hidden;
+}
+
+.search-popup .form-group input[type="text"], .search-popup .form-group input[type="search"] {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+    color: #000000;
+    height: 70px;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #282828;
+    border-radius: 5px;
+}
+
+.search-popup .form-group input[type="submit"], .search-popup .form-group button {
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    height: 70px;
+    line-height: 70px;
+    background: transparent;
+    text-align: center;
+    font-size: 24px;
+    color: #282828;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border: none;
+}
+
+.search-popup .form-group input[type="submit"]:hover,
+.search-popup .form-group button:hover{
+    color: #000000;
+}
+
+.search-popup input::placeholder,
+.search-popup textarea::placeholder{
+    color:#000000;
+}
+
+.search-popup .close-search.style-two{
+    position: absolute;
+    right: 25px;
+    left: auto;
+    color:#ffffff;
+    width:auto;
+    height:auto;
+    top:25px;
+    margin:0px;
+    border:none;
+    background:none !important;
+    box-shadow:none !important;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+.search-popup .close-search.style-two i{
+    font-size:20px;
+    color:#f00;
+}
+
+.search-box-btn.search-box-outer i {
+    font-size: 16px;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+/*==========================================
+ <-- litefolio Search CSS  End -->
+=========================================*/
+
+
+/*==========================================
+ <-- litefolio Sidebar CSS  Start -->
+=========================================*/
+/*nav button*/
+.search-box-btn.search-box-outer {
+    display: inline-block;
+}
+
+.nav-btn.navSidebar-button {
+    display: inline-block;
+}
+
+.nav-btn.navSidebar-button a i {
+    font-size: 18px;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.xs-sidebar-group .xs-overlay {
+    left: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 101;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease-in 0.8s;
+    -o-transition: all 0.4s ease-in 0.8s;
+    transition: all 0.4s ease-in 0.8s;
+    backdrop-filter: blur(5px);
+}
+
+.xs-sidebar-group .widget-heading {
+    position: absolute;
+    top: 23px;
+    right: 0;
+    padding: 25px;
+}
+
+.xs-sidebar-widget {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 360px;
+    z-index: 999999;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    -webkit-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    -o-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.xs-sidebar-group.isActive .xs-overlay {
+    opacity: 0.7;
+    visibility: visible;
+    -webkit-transition: all 0.8s ease-out 0s;
+    -o-transition: all 0.8s ease-out 0s;
+    transition: all 0.8s ease-out 0s;
+    left: 0;
+}
+
+.xs-sidebar-group.isActive .xs-sidebar-widget {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    -webkit-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+    -o-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+    transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+}
+
+.sidebar-textwidget {
+    padding: 40px 32px;
+}
+
+.nav-logo a {
+    font-size: 36px;
+    line-height: 40px;
+    color: #282828;
+    font-weight: 500;
+}
+
+.close-side-widget i {
+    color: #0E264F;
+    font-size: 28px;
+    display: block;
+}
+
+.sidebar-widget-container {
+    position: relative;
+    top: 150px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in 0.3s;
+    -o-transition: all 0.3s ease-in 0.3s;
+    transition: all 0.3s ease-in 0.3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.xs-sidebar-group.isActive .sidebar-widget-container {
+    top: 0px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 1s ease-out 1.2s;
+    -o-transition: all 1s ease-out 1.2s;
+    transition: all 1s ease-out 1.2s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.xs-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.xs-bg-black {
+    background: rgba(0, 0, 0, 0.7)!important;
+}
+
+.content-box h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #282828;
+}
+
+.content-box p {
+    color: #656565;
+    margin-top: 10px;
+}
+
+ul.list-style-one li {
+    margin: 12px 0px;
+}
+
+ul.list-style-one span {
+    margin-right: 11px;
+    font-size: 20px;
+}
+
+ul.sidebar-social-icon li {
+    display: inline-block;
+    margin: 04px;
+}
+
+ul.sidebar-social-icon a {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid;
+    color: #282828;
+}
+
+
+/*===========================
+<-- litefolio Loader Css -->
+=============================*/
+
+.loader_bg {
+    position: fixed;
+    z-index: 99999;
+    background: #083043;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/*
+<!-- ============================================================== -->
+<!--Scrollup Button Section -->
+<!-- ============================================================== -->*/
+
+
+
+/*------back-to-top------------*/
+
+.prgoress_indicator {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px rgba(24, 24, 24, 0.2);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transform: translateY(15px) !important;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) !important;
+  background: #fff;
+}
+
+.prgoress_indicator::after {
+    position: absolute;
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #282828;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    font-weight: 900;
+    z-index: 1;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator::before {
+  position: absolute;
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  font-weight: 900;
+  opacity: 0;
+  -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 2;
+  transition: all 200ms linear !important;
+}
+
+.prgoress_indicator:hover ::after {
+  color: #2871ff;
+}
+
+.prgoress_indicator:hover ::before {
+  opacity: 1;
+}
+
+.prgoress_indicator svg path {
+  fill: none;
+}
+
+.prgoress_indicator svg.progress-circle path {
+    stroke: #282828;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear !important;
+}
+
+
+
+/* curser Animation */
+
+.curser {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 2px dashed #282828;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    transition: .1s;
+}
+
+.curser2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background:  #ffffff;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    filter: blur(5px);
+    transition: .15s;
+}
+
+/* curser Animation */
+
+
+/*<!-- ============================================================== -->
+ <!-- litefolio animation start here -->
+<!-- ============================================================== -->*/
+
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes zoomIn {
+    from{
+      -webkit-transform: scale(.7) translateY(100px);
+      transform: scale(.7) translateY(100px);
+      opacity: 0;
+    }
+    to{
+      -webkit-transform: scale(1) translateY(0);
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+@keyframes ZoomIn {
+    from{
+      -webkit-transform: scale(.6);
+      transform: scale(.6);
+      opacity: 0;
+    }
+    to{
+      -webkit-transform: scale(1) ;
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+@keyframes FadeInUp {
+    from{
+      -webkit-transform: translateY(10%);
+      transform:  translateY(10%);
+      opacity: 0;
+    }
+    to{
+      -webkit-transform:  translateY(0%) ;
+      transform:  translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes rotate {
+    0% {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+        -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+        -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+        -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+        -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate3 {
+    0% {
+        transform: rotateX(-150deg) rotateY(-235deg) rotateZ(0deg);
+        -webkit-transform: rotateX(-150deg) rotateY(-235deg) rotateZ(0deg);
+    }
+    
+    100% {
+        transform: rotateX(-150deg) rotateY(-235deg) rotateZ(360deg);
+        -webkit-transform: rotateX(-150deg) rotateY(-235deg) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate4 {
+    0% {
+        transform: rotateX(220deg) rotateY(20deg) rotateZ(0deg);
+        -webkit-transform: rotateX(220deg) rotateY(20deg) rotateZ(0deg);
+    }
+    
+    100% {
+        transform: rotateX(220deg) rotateY(20deg) rotateZ(360deg);
+        -webkit-transform: rotateX(220deg) rotateY(20deg) rotateZ(360deg);
+    }
+}  
+
+
+@keyframes ripple {
+
+    0%,
+    35% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        transform: scale(2);
+    }
+}
+
+
+@keyframes movebounce {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+
+@keyframes moveleftbounce {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    50% {
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+@-webkit-keyframes play-btn {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3), 0 0 0 10px rgba(0, 0, 0, 0.3), 0 0 0 20px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3), 0 0 0 10px rgba(0, 0, 0, 0.3), 0 0 0 20px rgba(0, 0, 0, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3), 0 0 0 20px rgba(0, 0, 0, 0.3), 0 0 0 30px rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3), 0 0 0 20px rgba(0, 0, 0, 0.3), 0 0 0 30px rgba(0, 0, 0, 0)
+    }
+}
+
+@keyframes play-btn {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3), 0 0 0 10px rgba(0, 0, 0, 0.3), 0 0 0 20px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3), 0 0 0 10px rgba(0, 0, 0, 0.3), 0 0 0 20px rgba(0, 0, 0, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3), 0 0 0 20px rgba(0, 0, 0, 0.3), 0 0 0 30px rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3), 0 0 0 20px rgba(0, 0, 0, 0.3), 0 0 0 30px rgba(0, 0, 0, 0)
+    }
+}
+
+
+
+.dance3 {
+    -webkit-animation: dance3 8s alternate infinite;
+    animation: dance3 8s alternate infinite;
+}
+
+@keyframes dance3 {
+    0% {
+        -webkit-transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+.dance {
+    -webkit-animation: dance 2s alternate infinite;
+    animation: dance 2s alternate infinite;
+}
+
+@keyframes dance {
+    0% {
+        -webkit-transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+.dance2 {
+    -webkit-animation: dance2 4s alternate infinite;
+    animation: dance2 4s alternate infinite;
+}
+
+@keyframes dance2 {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        -webkit-transform: translate3d(25px, -25px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, -25px, 25px);
+    }
+}
+
+
+@keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes Ripple {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+        -webkit-transform: scale(3 );
+    }    
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

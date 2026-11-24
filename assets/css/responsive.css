@@ -1,0 +1,833 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+
+    .business-thumb img {
+        margin-left: 0;
+    }
+
+    /* Homepage Two */
+
+    .Hero-title h1 {
+        width: 80%;
+    }
+
+
+    /* Service Inner Page */
+
+    section.service-section.style-4 .service-single-box {
+        padding: 38px 26px ;
+    }
+
+    .service-box-title h5 {
+        font-size: 19px;
+        margin: 18px 0 18px;
+    }
+
+    .service-box-btn a {
+        margin-top: 0;
+    }
+
+    /* Blog Details Inner Page */
+
+    .contact-title h1 {
+        font-size: 40px;
+    }
+
+    .blog-detials-single-box h4 {
+        font-size: 18px;
+    }
+
+    /* Contact Inner Page */
+
+        
+    .contact-inner-thumb img {
+        margin-left: -10rem;
+    }
+
+
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+    /*Homepage One
+    ===================*/
+
+    .banner-title h1 {
+        width: 52%;
+    }
+
+    .service-box-title h5 {
+        font-size: 20px;
+    }
+
+    .business-thumb img {
+        margin-left: 0;
+    }
+
+    /* Homepage Two */
+
+    .Hero-title h1 {
+        font-size: 54px;
+        line-height: 65px;
+        width: 86%;
+    }
+
+    section.service-section.style-two .service-desc p {
+        width: 58%;
+    }
+
+    .feature-desc p {
+        width: 67%;
+    }
+    
+    .client-desc p {
+        width: 62%;
+    }
+
+    .blog-desc p {
+        width: 62%;
+    }
+
+    .blog-box-title h4 {
+        font-size: 21px;
+    }
+
+    /* Homepage Three */
+
+    .case-study-desc p {
+        width: 62%;
+    }
+
+    /* About Inner Page */
+
+    .team-desc p {
+        width: 62%;
+    }
+
+    .blog-box-desc p {
+        width: 90%;
+    }
+
+    /* Service Inner Page */
+
+    section.service-section.style-4 .service-single-box {
+        padding: 24px 10px 22px;
+    }
+
+    section.service-section.style-4 .service-box-title h5 {
+        font-size: 18px;
+    }
+
+    /* Pricing Plan */
+
+    .pricing-box-content-bottom {
+        padding: 40px 0px 52px 40px;
+    }
+
+    /* Contact Inner Page */
+
+    .contact-inner-thumb img {
+        margin-left: -16rem;
+    }
+
+    /* Blog Details Inner Page */
+
+    .blog-details-title h1 {
+        font-size: 28px;
+        margin: 0 0 10px;
+    }
+
+    .blog-box-title a {
+        font-size: 16px;
+    }
+
+    .post-title h5 {
+        font-size: 14px;
+    }
+
+    .recent-comment-content p {
+        font-size: 13px;
+    }
+
+    .form-condition p {
+        display: inherit;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .sticky {
+        position: relative !important;
+    }
+
+    header.header-manu-section {
+        display: none;
+    }
+
+    .banner-title h1 {
+        font-size: 50px;
+        width: 58%;
+    }
+
+    .banner-desc p {
+        width: 67%;
+    }
+
+    .case-study-thumb-title h5 {
+        font-size: 20px;
+    }
+
+    .team-single-box {
+        margin-bottom: 30px;
+    }
+
+    
+
+    /*Homepage Two
+    ==============*/
+
+    section.Hero-section {
+        height: 650px;
+    }
+
+    .Hero-title h1 {
+        font-size: 44px;
+        line-height: 60px;
+        width: 92%;
+    }
+
+    .Hero-desc p {
+        width: 80%;
+    }
+
+    section.service-section.style-two .service-desc p {
+        width: 78%;
+    }
+
+    .service-single-box {
+        padding: 44px 27px 42px;
+    }
+
+    .feature-desc p {
+        width: 82%;
+    }
+
+    .feature-single-box {
+        margin-bottom: 30px;
+    }
+
+    .client-desc p {
+        width: 82%;
+    }
+
+    .blog-desc p {
+        width: 82%;
+    }
+
+    .blog-single-box {
+        margin-bottom: 30px;
+    }
+
+    /* Homepage Three */
+
+    .case-study-desc p {
+        width: 82%;
+    }
+
+    /* About Inner Page */
+
+    .about-inner-thumb img {
+        margin-bottom: 30px;
+    }
+
+    .team-desc p {
+        width: 82%;
+    }
+
+    /* Pricing Plan */
+
+    .pricing-single-box {
+        margin-bottom: 30px;
+    }
+
+    /* Contact Inner Page */
+
+    .contact-inner-thumb img {
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+
+    /* Blog Details Inner Page */
+
+    .related-blog-single-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-details-form-btn {
+        margin-bottom: 30px;
+    }
+
+    
+
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    header.header-manu-section {
+        display: none;
+    }
+
+    .sticky {
+        position: relative !important;
+    }
+
+    .banner-title h1 {
+        font-size: 46px;
+        width: 72%;
+    }
+
+    .banner-desc p {
+        width: 91%;
+    }
+
+    .service-play {
+        margin-bottom: 50px;
+    }
+
+    .business-thumb img {
+        margin-left: 0;
+    }
+
+    section.business-section .litefolio-section-title h1 {
+        width: 76%;
+    }
+
+    .case-study-desc p {
+        width: 90%;
+    }
+
+    .case-study-thumb-title h5 {
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 6px;
+    }
+
+    .case-study-thumb-sub-title h6 {
+        font-size: 14px;
+    }
+
+    .team-desc p {
+        width: 90%;
+    }
+
+    .team-single-box {
+        margin-bottom: 30px;
+    }    
+
+    .client-desc p {
+        width: 90%;
+    }
+
+    /*Homepage Two
+    ===================*/
+
+    section.Hero-section {
+        height: 550px;
+    }
+
+    .Hero-title h1 {
+        font-size: 36px;
+        line-height: 50px;
+        width: 100%;
+    }
+
+    .Hero-desc p {
+        width: 80%;
+    }
+
+    section.service-section.style-two .service-desc p {
+        width: 80%;
+    }
+
+    .feature-desc p {
+        width: 80%;
+    }
+
+    .feature-single-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-desc p {
+        width: 80%;
+    }
+
+    .blog-single-box {
+        margin-bottom: 30px;
+    }
+
+    /* About Inner Page */
+
+    .about-inner-thumb img {
+        margin-bottom: 30px;
+    }
+
+    .team-desc p {
+        width: 82%;
+    }
+
+
+    /* Pricing Plan */
+
+    .pricing-single-box {
+        margin-bottom: 30px;
+    }
+
+    /* Contact Inner Page */
+
+    .contact-inner-thumb img {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    /* Blog Details Inner Page */
+
+    .related-blog-single-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-details-form-btn {
+        margin-bottom: 30px;
+    }
+
+    .form-condition p {
+        margin: 0;
+        display: inherit;
+    }
+    
+
+
+}
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+    header.header-manu-section {
+        display: none;
+    }
+
+    .sticky {
+        position: relative !important;
+    }
+
+    section.banner-section {
+        height: 650px;
+    }
+
+    .banner-title h1 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 70%;
+    }
+
+    .banner-desc p {
+        width: 86%;
+    }
+
+    .service-play {
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+
+    .business-thumb img {
+        margin-left: 0;
+    }
+
+    section.business-section .litefolio-section-title h1 {
+        width: 76%;
+    }
+
+    .case-study-desc p {
+        width: 90%;
+    }
+
+    .case-study-thumb-title h5 {
+        font-size: 12px;
+        margin-top: 0;
+        line-height: 12px;
+    }
+
+    .case-study-thumb-sub-title h6 {
+        font-size: 12px;
+    }
+
+    .team-desc p {
+        width: 90%;
+    }
+
+    .team-single-box {
+        margin-bottom: 30px;
+    }    
+
+    .client-desc p {
+        width: 90%;
+    }
+
+    .brand-thumb {
+        padding-left: 45px;
+    }
+
+    /* Pricing Plan */
+
+    .pricing-single-box {
+        margin-bottom: 30px;
+    }
+
+   
+
+    /*Homepage Two
+    ===================*/
+
+    .Hero-title h1 {
+        font-size: 30px;
+        line-height: 40px;
+        width: 90%;
+    }
+
+    .Hero-desc p {
+        width: 100%;
+    }
+
+    section.Hero-section {
+        height: 550px;
+    }
+
+    section.service-section.style-two .service-desc p {
+        width: 80%;
+    }
+
+    .feature-desc p {
+        width: 82%;
+    }
+
+    .feature-single-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-desc p {
+        width: 82%;
+    }
+
+    .blog-single-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-box-desc p {
+        width: 90%;
+        color: #656565;
+        margin: auto;
+    }
+
+    /* About Inner Page */
+
+    .about-inner-thumb img {
+        margin-bottom: 30px;
+    }
+
+    .team-desc p {
+        width: 82%;
+    }
+
+
+    /* Contact Inner Page */
+
+    .contact-inner-thumb img {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .contact-form-top {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    /* Blog Details Inner Page */
+
+    .related-blog-single-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-details-form-btn {
+        margin-bottom: 30px;
+    }
+
+    .form-condition p {
+        margin: 0;
+        display: inherit;
+    }
+
+    .blog-detials-single-box h4 {
+        font-size: 18px;
+    }
+
+    
+
+}
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    header.header-manu-section {
+        display: none;
+    }
+
+    .sticky {
+        position: relative !important;
+    }
+
+    section.banner-section {
+        height: 550px;
+    }
+
+    .banner-title h1 {
+        font-size: 30px;
+        line-height: 40px;
+        width: 80%;
+    }
+
+    .banner-desc p {
+        width: 100%;
+    }
+
+    .service-play {
+        margin: 0 0 50px 20px;
+    }
+
+    .service-box-title h5 {
+        font-size: 20px;
+    }
+
+    .business-thumb img {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    section.business-section .litefolio-section-title h1 {
+        width: 80%;
+    }
+
+    .business-lists {
+        flex-direction: column;
+    }
+
+    .case-study-desc p {
+        color: #656565;
+        margin: 2px auto 45px;
+        width: 100%;
+    }
+
+    .case-study-item {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+    }
+
+    .case-study-thumb-sub-title h6 {
+        font-size: 12px;
+    }
+
+    .case-study-thumb-title h5 {
+        font-size: 13px;
+        line-height: 14px;
+        margin-top: 0;
+    }
+
+    .case-study-thumb:hover .case-study-thumb-content {
+        top: 32%;
+    }
+
+    .team-desc p {
+        width: 100%;
+    }
+
+    .team-single-box {
+        margin-bottom: 30px;
+    }
+
+    .client-desc p {
+        width: 100%;
+    }
+
+    .client-profile-title h6 {
+        font-size: 20px;
+    }
+
+
+
+    
+    /*Homepage Two
+    ===================*/
+
+    section.Hero-section {
+        height: 550px;
+    }
+
+    .Hero-title h1 {
+        font-size: 22px;
+        line-height: 32px;
+        width: 100%;
+    }
+
+    .Hero-desc p {
+        width: 100%;
+    }
+
+    section.service-section.style-two .service-desc p {
+        width: 100%;
+    }
+
+    .service-single-box {
+        padding: 44px 16px 42px;
+    }
+
+    .service-box-desc p {
+        font-size: 15px;
+    }
+
+    .feature-desc p {
+        width: 100%;
+    }
+
+    .feature-single-box {
+        margin-bottom: 30px;
+    }
+
+    .feature-box-desc p {
+        width: 100%;
+    }
+
+    .litefolio-section-title h1 {
+        font-size: 36px;
+    }
+
+    .blog-desc p {
+        width: 100%;
+    }
+
+    .blog-single-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-box-title h4 {
+        font-size: 20px;
+    }
+
+    .blog-box-desc p {
+        width: 100%;
+    }
+
+    /* About Inner Page */
+
+    .about-inner-thumb img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .litefolio-section-title h1 {
+        font-size: 25px;
+    }
+
+    /* Service Inner Page */
+
+    .about-inner-title h1 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    /* Pricing Plan */
+
+    .pricing-single-box {
+        margin-bottom: 30px;
+    }
+
+    .pricing-box-content-bottom {
+        padding: 40px 0px 52px 40px;
+    }
+
+    /* Contact Inner Page */
+
+    .contact-inner-thumb img {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .contact-inner-content {
+        padding: 20px;
+    }
+
+    .contact-form-top {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    /* Blog Details Inner Page */
+
+    .blog-details-social {
+        flex-direction: column;
+    }
+
+    .related-blog-single-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-details-form-btn {
+        margin-bottom: 30px;
+    }
+
+    .form-condition p {
+        margin: 0;
+        display: inherit;
+    }
+
+    .blog-details-box {
+        flex-direction: column;
+    }
+
+    .blog-box-title a {
+        font-size: 16px;
+    }
+
+    .blog-details-comments-item {
+        flex-direction: column;
+    }
+
+    .blog-details-form-bottom {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .recent-comment-content p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .contact-title h1 {
+        font-size: 40px;
+    }
+
+
+
+}
+
